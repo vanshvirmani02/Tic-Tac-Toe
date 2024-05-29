@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 20px;
+}
+body{
+    background-color: grey;
+    text-align: center;
+}
+
+.container{
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    gap: 1.5vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    font-size: 3rem;
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 15px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 0 1rem rgba(0,0,0,0.5);
+}
+.reset{
+    height: 5vmin;
+    width: 15vmin;
+    font-size: 1rem;
+}
+
+.newgame{
+    height: 5vmin;
+    width: 15vmin;
+    font-size: 1rem;
+}
+.winname{
+    font-size: 3rem;
+    color: #51e2f5;
+}
+
+.hide{
+    display: none;
+}
+
+.dark{
+    color: red;
+    
+}
+
+.light{
+    color: black;
+}
